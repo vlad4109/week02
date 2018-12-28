@@ -37,5 +37,17 @@ namespace ConsoleApplication
                 return number2 - number1;
             }
         }
+        public static double Div(int no1, int no2)
+        {
+            if(no2!=0)
+            {
+                return no1/(double)no2;
+            }
+            else
+            {
+                Console.WriteLine("error");
+            }
+            
+        }
     }
 }
