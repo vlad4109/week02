@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F45AE2B5-8508-4555-B125-5931033B2EB1}</ProjectGuid>
+    <ProjectGuid>{547E6D8B-2677-4054-9370-44DCE1D8E9C2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Structures</RootNamespace>
-    <AssemblyName>Structures</AssemblyName>
+    <RootNamespace>Queue</RootNamespace>
+    <AssemblyName>Queue</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Queue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Structures
+namespace Queue
 {
-    class Program
+    public class Queue
     {
-        static void Main(string[] args)
+        public Queue(int a)
         {
+            this.A = a;
         }
+
+        public int A { get; set; }
     }
 }

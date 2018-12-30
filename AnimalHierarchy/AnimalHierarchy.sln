@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structures", "Structures\Structures.csproj", "{F45AE2B5-8508-4555-B125-5931033B2EB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalHierarchy", "AnimalHierarchy\AnimalHierarchy.csproj", "{20526BF9-D374-48A5-AB57-15F086D13905}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F45AE2B5-8508-4555-B125-5931033B2EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F45AE2B5-8508-4555-B125-5931033B2EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F45AE2B5-8508-4555-B125-5931033B2EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F45AE2B5-8508-4555-B125-5931033B2EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20526BF9-D374-48A5-AB57-15F086D13905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20526BF9-D374-48A5-AB57-15F086D13905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20526BF9-D374-48A5-AB57-15F086D13905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20526BF9-D374-48A5-AB57-15F086D13905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DF365CFE-4DAE-4B6A-B06B-5FF5C6F1F076}
+		SolutionGuid = {5256828D-D7C1-40CE-8A64-E658989EE7E5}
 	EndGlobalSection
 EndGlobal
