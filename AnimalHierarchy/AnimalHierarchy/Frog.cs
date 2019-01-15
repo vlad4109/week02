@@ -8,10 +8,10 @@ namespace AnimalHierarchy
 {
     public class Frog : Animal, ISoundInterface
     {
-        public Frog(string name, string sex, int age)
+        public Frog(string name, string gender, int age)
         {
             this.Name = name;
-            this.Sex = sex;
+            this.Gender = gender;
             this.Age = age;
         }
 

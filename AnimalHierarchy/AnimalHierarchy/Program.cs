@@ -12,7 +12,7 @@ namespace AnimalHierarchy
         {
             foreach(Dog dog in dogs)
             {
-                Console.WriteLine($"Dog {dog.Name} is a {dog.Sex} and it has {dog.Age} years.");
+                Console.WriteLine($"Dog {dog.Name} is a {dog.Gender} and it has {dog.Age} years.");
             }
         }
 
@@ -20,7 +20,7 @@ namespace AnimalHierarchy
         {
             foreach (Frog frog in frogs)
             {
-                Console.WriteLine($"Frog {frog.Name} is a {frog.Sex} and it has {frog.Age} years.");
+                Console.WriteLine($"Frog {frog.Name} is a {frog.Gender} and it has {frog.Age} years.");
             }
         }
 
@@ -28,14 +28,22 @@ namespace AnimalHierarchy
         {
             foreach (Cat cat in cats)
             {
-                Console.WriteLine($"Cat {cat.Name} is a {cat.Sex} and it has {cat.Age} years.");
+                Console.WriteLine($"Cat {cat.Name} is a {cat.Gender} and it has {cat.Age} years.");
             }
         }
 
-        public static double AverageAge()
+        public static void PrintTheKittens(Kitten[] kittens)
         {
-
+            foreach (Kitten kitten in kittens)
+            {
+                Console.WriteLine($"Cat {kitten.Name} is a {kitten.Gender} and it has {kitten.Age} years.");
+            }
         }
+
+        //public static double AverageAge()
+        //{
+
+        //}
 
         static void Main(string[] args)
         {
@@ -65,6 +73,11 @@ namespace AnimalHierarchy
 
             PrintTheCats(cats);
             Console.WriteLine();
+
+            Kitten[] kittens = new Kitten[1];
+            Kitten k1 = new Kitten("Lulu", "female", 1);
+
+            PrintTheKittens(kittens);
 
 
         }

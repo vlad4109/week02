@@ -8,11 +8,9 @@
 //{
 //    public class Tomcat : Cat
 //    {
-//        public Tomcat(string name, string sex, int age)
+//        public Tomcat(string name, string gender, int age) : base(name, age)
 //        {
-//            this.Name = name;
-//            this.Sex = sex;
-//            this.Age = age;
+//            this.Gender = "Male";
 //        }
 //    }
 //}
